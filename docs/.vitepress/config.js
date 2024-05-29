@@ -1,9 +1,9 @@
-const { description } = require("../../package");
+import pkg from "../../package.json" assert { type: 'json' };
 
-module.exports = {
+export default {
   base: "/vue3-popper/",
   title: "Vue 3 Popper",
-  description: description,
+  description: pkg.description,
   /**
    * Theme configuration, here is the default theme configuration for VuePress.
    *

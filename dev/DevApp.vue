@@ -9,16 +9,8 @@
   </div>
 </template>
 
-<script>
-  import { defineComponent } from "vue";
-  import Popper from "@/component/Popper.vue";
-
-  export default defineComponent({
-    name: "ServeDev",
-    components: {
-      Popper,
-    },
-  });
+<script setup>
+  import Popper from "../src/component/Popper.vue";
 </script>
 
 <style>
