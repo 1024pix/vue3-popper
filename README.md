@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://raw.githubusercontent.com/valgeirb/vue-popper/main/docs/public/popper.svg" height="300px">
+<img src="https://raw.githubusercontent.com/1024pix/vue-popper/main/docs/public/popper.svg" height="300px">
 </p>
 
 # vue3-popper
@@ -18,13 +18,13 @@ Check out the [documentation](https://valgeirb.github.io/vue3-popper/)
 ### NPM
 
 ```bash
-npm install vue3-popper
+npm install @1024pix/vue3-popper
 ```
 
 ### Yarn
 
 ```bash
-yarn add vue3-popper
+yarn add @1024pix/vue3-popper
 ```
 
 ## Usage
@@ -51,7 +51,7 @@ yarn add vue3-popper
 
 <script>
   import { defineComponent } from "vue";
-  import Popper from "vue3-popper";
+  import Popper from "@1024pix/vue3-popper";
 
   export default defineComponent({
     components: {
