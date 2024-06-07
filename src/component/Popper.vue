@@ -36,14 +36,13 @@
   import {
     ref,
     computed,
-    defineProps,
     useSlots,
     toRefs,
     watch,
     watchEffect,
     onMounted,
   } from "vue";
-  import { usePopper, useContent, useClickAway } from "@/composables";
+  import { usePopper, useContent, useClickAway } from "../composables";
   import Arrow from "./Arrow.vue";
 
   const emit = defineEmits(["open:popper", "close:popper"]);

@@ -7,7 +7,7 @@
 </template>
 
 <script>
-  import Popper from "../../dist/popper.esm";
+  import Popper from "../../dist/vue3-popper";
   import Button from "./Button.vue";
   export default {
     name: "PopperDeep",
